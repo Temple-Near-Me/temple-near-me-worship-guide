@@ -1,0 +1,25 @@
+{
+  "name": "iskconrajnagar",
+  "version": "1.0.0",
+  "description": "Official website for ISKCON Rajnagar temple",
+  "scripts": {
+    "start": "live-server",
+    "build": "echo 'No build process is necessary for this project'",
+    "deploy": "gh-pages -d public",
+    "test": "jest",
+    "coverage": "nyc --reporter=html npm test"
+  },
+  "author": "Aryashree",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "live-server": "^1.2.2",
+    "jest": "^30.0.4",
+    "jest-environment-jsdom": "^30.0.4",
+    "nyc": "^17.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.7.1"
+  }
+}
